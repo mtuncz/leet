@@ -11,6 +11,7 @@ class Solution {
             ans = Math.max(ans, j-i+1); 
             map.put(s.charAt(j), j+1); 
         }
+        //System.out.println(s.substring(k, k+ans)); 
         return ans;     
     }
     
